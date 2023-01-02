@@ -4,6 +4,7 @@ CREATE TABLE pots (
     grey INT NULL,
     brown INT NULL,
     brick INT NULL,
+    price INT NOT NULL,
     prod_id int not null, 
     FOREIGN KEY (prod_id) REFERENCES PRODUCT (id);
 )
